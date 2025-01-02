@@ -31,7 +31,7 @@ import pandas as pd
 from datetime import datetime
 
 # clau API de HubSpot
-API_KEY = "TEVA_CLAU_API"
+API_KEY = "CLAU_API"
 URL = f"https://api.hubapi.com/contacts/v1/lists/all/contacts/all?hapikey={API_KEY}"
 
 def export_hubspot_data():
