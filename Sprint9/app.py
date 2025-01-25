@@ -3,12 +3,12 @@ import pandas as pd
 import joblib
 
 # Carrega els objectes guardats
-label_encoder = joblib.load('models/label_encoder.pkl')
-one_hot_columns = joblib.load('models/one_hot_columns.pkl')
-pca_columns = joblib.load('models/pca_columns.pkl')
-scaler = joblib.load('models/standard_scaler.pkl')
-pca = joblib.load('models/pca_model.pkl')
-model = joblib.load('models/model_lr_final.pkl')
+label_encoder = joblib.load('Sprint9/models/label_encoder.pkl')
+one_hot_columns = joblib.load('Sprint9/models/one_hot_columns.pkl')
+pca_columns = joblib.load('Sprint9/models/pca_columns.pkl')
+scaler = joblib.load('Sprint9/models/standard_scaler.pkl')
+pca = joblib.load('Sprint9/models/pca_model.pkl')
+model = joblib.load('Sprint9/models/model_lr_final.pkl')
 
 # Configura la interfície d'usuari
 st.title("Predicció de Contractació de Dipòsits Bancaris")
