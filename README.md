@@ -1,6 +1,8 @@
 # Projecte-Machine-Learning
 Repositori creat pel curs de Machine Learning de Barcelona Activa
 
+Enllaç del projecte a Streamlit: [https://adriahf-projecte-machine-learning-sprint9app-baqk6r.streamlit.app/)
+
 ---
 
 # Documentació del Procés de Deploy
